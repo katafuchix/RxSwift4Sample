@@ -57,6 +57,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="UUQ-9i-rST" kind="show" id="VZH-gW-UVg"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="zfD-bP-qNV" style="IBUITableViewCellStyleDefault" id="vkS-cX-VsG">
                                         <rect key="frame" x="0.0" y="88" width="375" height="44"/>
