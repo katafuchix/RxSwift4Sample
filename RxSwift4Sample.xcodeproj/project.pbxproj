@@ -13,6 +13,8 @@
 		314F1D5520427F3000A7BAC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 314F1D5420427F3000A7BAC7 /* Assets.xcassets */; };
 		314F1D5820427F3000A7BAC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 314F1D5620427F3000A7BAC7 /* LaunchScreen.storyboard */; };
 		319B24D1206F96480061A041 /* SBCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319B24D0206F96480061A041 /* SBCollectionViewController.swift */; };
+		31A66D43207659B4007F7272 /* ExpandingTableViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A66D42207659B4007F7272 /* ExpandingTableViewViewController.swift */; };
+		31A66D4520765AB6007F7272 /* ExpandingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A66D4420765AB6007F7272 /* ExpandingTableViewCell.swift */; };
 		31D7256D206CFC0F00F4DEA8 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D7256C206CFC0F00F4DEA8 /* CollectionViewController.swift */; };
 		31D72570206D061F00F4DEA8 /* RxCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D7256F206D061F00F4DEA8 /* RxCollectionViewController.swift */; };
 		86D9B05380AAACA352D21F14 /* Pods_RxSwift4Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8935E6517F7A57F8D499E238 /* Pods_RxSwift4Sample.framework */; };
@@ -27,6 +29,8 @@
 		314F1D5720427F3000A7BAC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		314F1D5920427F3000A7BAC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		319B24D0206F96480061A041 /* SBCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBCollectionViewController.swift; sourceTree = "<group>"; };
+		31A66D42207659B4007F7272 /* ExpandingTableViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandingTableViewViewController.swift; sourceTree = "<group>"; };
+		31A66D4420765AB6007F7272 /* ExpandingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandingTableViewCell.swift; sourceTree = "<group>"; };
 		31D7256C206CFC0F00F4DEA8 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		31D7256F206D061F00F4DEA8 /* RxCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCollectionViewController.swift; sourceTree = "<group>"; };
 		44C3D62D463902AF07E3654A /* Pods-RxSwift4Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift4Sample.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwift4Sample/Pods-RxSwift4Sample.release.xcconfig"; sourceTree = "<group>"; };
@@ -80,6 +84,8 @@
 				31D7256C206CFC0F00F4DEA8 /* CollectionViewController.swift */,
 				31D7256F206D061F00F4DEA8 /* RxCollectionViewController.swift */,
 				319B24D0206F96480061A041 /* SBCollectionViewController.swift */,
+				31A66D42207659B4007F7272 /* ExpandingTableViewViewController.swift */,
+				31A66D4420765AB6007F7272 /* ExpandingTableViewCell.swift */,
 				314F1D5120427F3000A7BAC7 /* Main.storyboard */,
 				314F1D5420427F3000A7BAC7 /* Assets.xcassets */,
 				314F1D5620427F3000A7BAC7 /* LaunchScreen.storyboard */,
@@ -237,6 +243,8 @@
 				31D72570206D061F00F4DEA8 /* RxCollectionViewController.swift in Sources */,
 				319B24D1206F96480061A041 /* SBCollectionViewController.swift in Sources */,
 				31D7256D206CFC0F00F4DEA8 /* CollectionViewController.swift in Sources */,
+				31A66D43207659B4007F7272 /* ExpandingTableViewViewController.swift in Sources */,
+				31A66D4520765AB6007F7272 /* ExpandingTableViewCell.swift in Sources */,
 				314F1D5020427F3000A7BAC7 /* ViewController.swift in Sources */,
 				314F1D4E20427F3000A7BAC7 /* AppDelegate.swift in Sources */,
 			);
