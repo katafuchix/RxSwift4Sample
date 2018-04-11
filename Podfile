@@ -10,4 +10,5 @@ target 'RxSwift4Sample' do
   pod 'RxCocoa',    '~> 4.0'
   pod 'RxDataSources', '~> 3.0'
   pod 'NSObject+Rx'
+  pod 'APIKit', '~> 3.1'
 end
