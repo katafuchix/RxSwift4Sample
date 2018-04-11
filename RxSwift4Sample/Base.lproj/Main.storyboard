@@ -162,6 +162,26 @@
                                             <segue destination="JYM-3f-ebf" kind="show" id="ZlT-Oq-fiN"/>
                                         </connections>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="038-lT-h3X" style="IBUITableViewCellStyleDefault" id="fWJ-4X-9IR">
+                                        <rect key="frame" x="0.0" y="308" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="fWJ-4X-9IR" id="9Zq-hV-Dsk">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="APIKit + Codable + RxSwift Sample" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="038-lT-h3X">
+                                                    <rect key="frame" x="16" y="0.0" width="343" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="rev-SE-x5d" kind="show" id="Qx7-iY-3fF"/>
+                                        </connections>
+                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>
@@ -280,10 +300,25 @@
             </objects>
             <point key="canvasLocation" x="116" y="118.29085457271366"/>
         </scene>
-        <!--Kit Codable Sample View Controller-->
+        <!--APIKit + Codable + RxSwift Sample-->
+        <scene sceneID="70G-uo-1tB">
+            <objects>
+                <viewController title="APIKit + Codable + RxSwift Sample" id="rev-SE-x5d" customClass="APIKitCodableRxSwiftSampleViewController" customModule="RxSwift4Sample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Z8P-3H-tPG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="orY-3V-ipn"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yjm-6K-lVN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1975" y="1227"/>
+        </scene>
+        <!--APIKit + Codable Sample-->
         <scene sceneID="9zb-js-Fch">
             <objects>
-                <viewController id="JYM-3f-ebf" customClass="APIKitCodableSampleViewController" customModule="RxSwift4Sample" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="APIKit + Codable Sample" id="JYM-3f-ebf" customClass="APIKitCodableSampleViewController" customModule="RxSwift4Sample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4Qr-0y-sOT">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

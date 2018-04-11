@@ -10,6 +10,7 @@
 
 import UIKit
 import APIKit
+import RxSwift
 
 // https://codezine.jp/article/detail/10532?p=2
 // RandomUser APIのレスポンスを受けとるオブジェクト
@@ -82,6 +83,11 @@ struct FetchRandomUserRequest: RandomUserRequest {
     // Codable用
     var dataParser: DataParser {
         return JSONDataParser()
+    }
+    
+    // RxSwift の Observable を実装したインターフェース
+    public func asObservable() -> Observable<Response> {
+        return Session.rx_sendRequest(self)
     }
 }
 

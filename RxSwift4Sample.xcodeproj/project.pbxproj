@@ -15,6 +15,7 @@
 		315505792076840B00931253 /* AnimatingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315505782076840B00931253 /* AnimatingTableViewController.swift */; };
 		3155057B2076842100931253 /* AnimatingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3155057A2076842100931253 /* AnimatingTableViewCell.swift */; };
 		317D6BF1207E003B00184973 /* APIKitCodableSampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317D6BF0207E003B00184973 /* APIKitCodableSampleViewController.swift */; };
+		317D6BF3207E0B2900184973 /* APIKitCodableRxSwiftSampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317D6BF2207E0B2900184973 /* APIKitCodableRxSwiftSampleViewController.swift */; };
 		319B24D1206F96480061A041 /* SBCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319B24D0206F96480061A041 /* SBCollectionViewController.swift */; };
 		31A66D43207659B4007F7272 /* ExpandingTableViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A66D42207659B4007F7272 /* ExpandingTableViewViewController.swift */; };
 		31A66D4520765AB6007F7272 /* ExpandingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A66D4420765AB6007F7272 /* ExpandingTableViewCell.swift */; };
@@ -34,6 +35,7 @@
 		315505782076840B00931253 /* AnimatingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingTableViewController.swift; sourceTree = "<group>"; };
 		3155057A2076842100931253 /* AnimatingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingTableViewCell.swift; sourceTree = "<group>"; };
 		317D6BF0207E003B00184973 /* APIKitCodableSampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKitCodableSampleViewController.swift; sourceTree = "<group>"; };
+		317D6BF2207E0B2900184973 /* APIKitCodableRxSwiftSampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKitCodableRxSwiftSampleViewController.swift; sourceTree = "<group>"; };
 		319B24D0206F96480061A041 /* SBCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBCollectionViewController.swift; sourceTree = "<group>"; };
 		31A66D42207659B4007F7272 /* ExpandingTableViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandingTableViewViewController.swift; sourceTree = "<group>"; };
 		31A66D4420765AB6007F7272 /* ExpandingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandingTableViewCell.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 				315505782076840B00931253 /* AnimatingTableViewController.swift */,
 				3155057A2076842100931253 /* AnimatingTableViewCell.swift */,
 				317D6BF0207E003B00184973 /* APIKitCodableSampleViewController.swift */,
+				317D6BF2207E0B2900184973 /* APIKitCodableRxSwiftSampleViewController.swift */,
 				314F1D5120427F3000A7BAC7 /* Main.storyboard */,
 				314F1D5420427F3000A7BAC7 /* Assets.xcassets */,
 				314F1D5620427F3000A7BAC7 /* LaunchScreen.storyboard */,
@@ -263,6 +266,7 @@
 				314F1D5020427F3000A7BAC7 /* ViewController.swift in Sources */,
 				314F1D4E20427F3000A7BAC7 /* AppDelegate.swift in Sources */,
 				317D6BF1207E003B00184973 /* APIKitCodableSampleViewController.swift in Sources */,
+				317D6BF3207E0B2900184973 /* APIKitCodableRxSwiftSampleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
