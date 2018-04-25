@@ -16,11 +16,13 @@
 		3155057B2076842100931253 /* AnimatingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3155057A2076842100931253 /* AnimatingTableViewCell.swift */; };
 		317D6BF1207E003B00184973 /* APIKitCodableSampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317D6BF0207E003B00184973 /* APIKitCodableSampleViewController.swift */; };
 		317D6BF3207E0B2900184973 /* APIKitCodableRxSwiftSampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317D6BF2207E0B2900184973 /* APIKitCodableRxSwiftSampleViewController.swift */; };
+		31847F91209085D20008373C /* TagLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31847F90209085D20008373C /* TagLabel.swift */; };
 		319B24D1206F96480061A041 /* SBCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319B24D0206F96480061A041 /* SBCollectionViewController.swift */; };
 		31A66D43207659B4007F7272 /* ExpandingTableViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A66D42207659B4007F7272 /* ExpandingTableViewViewController.swift */; };
 		31A66D4520765AB6007F7272 /* ExpandingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A66D4420765AB6007F7272 /* ExpandingTableViewCell.swift */; };
 		31D7256D206CFC0F00F4DEA8 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D7256C206CFC0F00F4DEA8 /* CollectionViewController.swift */; };
 		31D72570206D061F00F4DEA8 /* RxCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D7256F206D061F00F4DEA8 /* RxCollectionViewController.swift */; };
+		31F9AB11209082EC00878771 /* TextCloudViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F9AB10209082EC00878771 /* TextCloudViewController.swift */; };
 		86D9B05380AAACA352D21F14 /* Pods_RxSwift4Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8935E6517F7A57F8D499E238 /* Pods_RxSwift4Sample.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,11 +38,13 @@
 		3155057A2076842100931253 /* AnimatingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingTableViewCell.swift; sourceTree = "<group>"; };
 		317D6BF0207E003B00184973 /* APIKitCodableSampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKitCodableSampleViewController.swift; sourceTree = "<group>"; };
 		317D6BF2207E0B2900184973 /* APIKitCodableRxSwiftSampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKitCodableRxSwiftSampleViewController.swift; sourceTree = "<group>"; };
+		31847F90209085D20008373C /* TagLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagLabel.swift; sourceTree = "<group>"; };
 		319B24D0206F96480061A041 /* SBCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBCollectionViewController.swift; sourceTree = "<group>"; };
 		31A66D42207659B4007F7272 /* ExpandingTableViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandingTableViewViewController.swift; sourceTree = "<group>"; };
 		31A66D4420765AB6007F7272 /* ExpandingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandingTableViewCell.swift; sourceTree = "<group>"; };
 		31D7256C206CFC0F00F4DEA8 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		31D7256F206D061F00F4DEA8 /* RxCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCollectionViewController.swift; sourceTree = "<group>"; };
+		31F9AB10209082EC00878771 /* TextCloudViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCloudViewController.swift; sourceTree = "<group>"; };
 		44C3D62D463902AF07E3654A /* Pods-RxSwift4Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift4Sample.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwift4Sample/Pods-RxSwift4Sample.release.xcconfig"; sourceTree = "<group>"; };
 		8935E6517F7A57F8D499E238 /* Pods_RxSwift4Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwift4Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B61A8DAE6F4A0F5DB1380C30 /* Pods-RxSwift4Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift4Sample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwift4Sample/Pods-RxSwift4Sample.debug.xcconfig"; sourceTree = "<group>"; };
@@ -98,6 +102,8 @@
 				3155057A2076842100931253 /* AnimatingTableViewCell.swift */,
 				317D6BF0207E003B00184973 /* APIKitCodableSampleViewController.swift */,
 				317D6BF2207E0B2900184973 /* APIKitCodableRxSwiftSampleViewController.swift */,
+				31F9AB10209082EC00878771 /* TextCloudViewController.swift */,
+				31847F90209085D20008373C /* TagLabel.swift */,
 				314F1D5120427F3000A7BAC7 /* Main.storyboard */,
 				314F1D5420427F3000A7BAC7 /* Assets.xcassets */,
 				314F1D5620427F3000A7BAC7 /* LaunchScreen.storyboard */,
@@ -257,12 +263,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				31D72570206D061F00F4DEA8 /* RxCollectionViewController.swift in Sources */,
+				31847F91209085D20008373C /* TagLabel.swift in Sources */,
 				319B24D1206F96480061A041 /* SBCollectionViewController.swift in Sources */,
 				31D7256D206CFC0F00F4DEA8 /* CollectionViewController.swift in Sources */,
 				31A66D43207659B4007F7272 /* ExpandingTableViewViewController.swift in Sources */,
 				3155057B2076842100931253 /* AnimatingTableViewCell.swift in Sources */,
 				315505792076840B00931253 /* AnimatingTableViewController.swift in Sources */,
 				31A66D4520765AB6007F7272 /* ExpandingTableViewCell.swift in Sources */,
+				31F9AB11209082EC00878771 /* TextCloudViewController.swift in Sources */,
 				314F1D5020427F3000A7BAC7 /* ViewController.swift in Sources */,
 				314F1D4E20427F3000A7BAC7 /* AppDelegate.swift in Sources */,
 				317D6BF1207E003B00184973 /* APIKitCodableSampleViewController.swift in Sources */,
