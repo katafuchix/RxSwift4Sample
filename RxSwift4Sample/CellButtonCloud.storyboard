@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="36A-IE-KSm">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--CellButtonCloudViewController-->
+        <scene sceneID="bb6-Tg-Xpu">
+            <objects>
+                <viewController title="CellButtonCloudViewController" id="36A-IE-KSm" customClass="CellButtonCloudViewController" customModule="RxSwift4Sample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5YS-RG-eQv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="L4M-DR-9Dd">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ButtonCloudCell" id="q74-Hw-lXD" customClass="ButtonCloudCell" customModule="RxSwift4Sample" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="q74-Hw-lXD" id="oE8-Ya-w5k">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="L4M-DR-9Dd" firstAttribute="trailing" secondItem="jQZ-xN-pS4" secondAttribute="trailing" id="EVP-p3-1BQ"/>
+                            <constraint firstItem="L4M-DR-9Dd" firstAttribute="leading" secondItem="jQZ-xN-pS4" secondAttribute="leading" id="PyV-BU-d81"/>
+                            <constraint firstItem="L4M-DR-9Dd" firstAttribute="bottom" secondItem="jQZ-xN-pS4" secondAttribute="bottom" id="dqr-MW-beq"/>
+                            <constraint firstItem="L4M-DR-9Dd" firstAttribute="top" secondItem="5YS-RG-eQv" secondAttribute="top" id="xnR-5V-PcZ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="jQZ-xN-pS4"/>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="L4M-DR-9Dd" id="5G6-gQ-Gct"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OAw-tW-93e" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="325.60000000000002" y="-173.16341829085459"/>
+        </scene>
+    </scenes>
+</document>

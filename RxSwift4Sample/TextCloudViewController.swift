@@ -63,6 +63,8 @@ class TextCloudViewController: UIViewController {
             tagsView.addSubview(label)
 
             tagOriginX += tagWidth + tagMargin
+
+            print("tagOriginY : \(tagOriginY)")
         }
     }
 

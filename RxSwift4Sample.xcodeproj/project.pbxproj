@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		312F68BF2091E34F00B61AC2 /* CellButtonCloudViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312F68BE2091E34F00B61AC2 /* CellButtonCloudViewController.swift */; };
+		312F68C12091E38500B61AC2 /* CellButtonCloud.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 312F68C02091E38500B61AC2 /* CellButtonCloud.storyboard */; };
+		312F68C32091E3E400B61AC2 /* ButtonCloudCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312F68C22091E3E400B61AC2 /* ButtonCloudCell.swift */; };
+		312F68C52091E44700B61AC2 /* TagCloudButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312F68C42091E44700B61AC2 /* TagCloudButton.swift */; };
 		314F1D4E20427F3000A7BAC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314F1D4D20427F3000A7BAC7 /* AppDelegate.swift */; };
 		314F1D5020427F3000A7BAC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314F1D4F20427F3000A7BAC7 /* ViewController.swift */; };
 		314F1D5320427F3000A7BAC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 314F1D5120427F3000A7BAC7 /* Main.storyboard */; };
@@ -27,6 +31,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		312F68BE2091E34F00B61AC2 /* CellButtonCloudViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellButtonCloudViewController.swift; sourceTree = "<group>"; };
+		312F68C02091E38500B61AC2 /* CellButtonCloud.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CellButtonCloud.storyboard; sourceTree = "<group>"; };
+		312F68C22091E3E400B61AC2 /* ButtonCloudCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCloudCell.swift; sourceTree = "<group>"; };
+		312F68C42091E44700B61AC2 /* TagCloudButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagCloudButton.swift; sourceTree = "<group>"; };
 		314F1D4A20427F3000A7BAC7 /* RxSwift4Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwift4Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		314F1D4D20427F3000A7BAC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		314F1D4F20427F3000A7BAC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -104,6 +112,10 @@
 				317D6BF2207E0B2900184973 /* APIKitCodableRxSwiftSampleViewController.swift */,
 				31F9AB10209082EC00878771 /* TextCloudViewController.swift */,
 				31847F90209085D20008373C /* TagLabel.swift */,
+				312F68BE2091E34F00B61AC2 /* CellButtonCloudViewController.swift */,
+				312F68C02091E38500B61AC2 /* CellButtonCloud.storyboard */,
+				312F68C22091E3E400B61AC2 /* ButtonCloudCell.swift */,
+				312F68C42091E44700B61AC2 /* TagCloudButton.swift */,
 				314F1D5120427F3000A7BAC7 /* Main.storyboard */,
 				314F1D5420427F3000A7BAC7 /* Assets.xcassets */,
 				314F1D5620427F3000A7BAC7 /* LaunchScreen.storyboard */,
@@ -183,6 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				312F68C12091E38500B61AC2 /* CellButtonCloud.storyboard in Resources */,
 				314F1D5820427F3000A7BAC7 /* LaunchScreen.storyboard in Resources */,
 				314F1D5520427F3000A7BAC7 /* Assets.xcassets in Resources */,
 				314F1D5320427F3000A7BAC7 /* Main.storyboard in Resources */,
@@ -266,6 +279,8 @@
 				31847F91209085D20008373C /* TagLabel.swift in Sources */,
 				319B24D1206F96480061A041 /* SBCollectionViewController.swift in Sources */,
 				31D7256D206CFC0F00F4DEA8 /* CollectionViewController.swift in Sources */,
+				312F68BF2091E34F00B61AC2 /* CellButtonCloudViewController.swift in Sources */,
+				312F68C32091E3E400B61AC2 /* ButtonCloudCell.swift in Sources */,
 				31A66D43207659B4007F7272 /* ExpandingTableViewViewController.swift in Sources */,
 				3155057B2076842100931253 /* AnimatingTableViewCell.swift in Sources */,
 				315505792076840B00931253 /* AnimatingTableViewController.swift in Sources */,
@@ -274,6 +289,7 @@
 				314F1D5020427F3000A7BAC7 /* ViewController.swift in Sources */,
 				314F1D4E20427F3000A7BAC7 /* AppDelegate.swift in Sources */,
 				317D6BF1207E003B00184973 /* APIKitCodableSampleViewController.swift in Sources */,
+				312F68C52091E44700B61AC2 /* TagCloudButton.swift in Sources */,
 				317D6BF3207E0B2900184973 /* APIKitCodableRxSwiftSampleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
