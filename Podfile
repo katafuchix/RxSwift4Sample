@@ -11,4 +11,5 @@ target 'RxSwift4Sample' do
   pod 'RxDataSources', '~> 3.0'
   pod 'NSObject+Rx'
   pod 'APIKit', '~> 3.1'
+  pod 'MBProgressHUD'
 end

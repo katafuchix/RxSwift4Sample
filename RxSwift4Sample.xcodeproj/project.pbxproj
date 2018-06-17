@@ -24,8 +24,16 @@
 		319B24D1206F96480061A041 /* SBCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319B24D0206F96480061A041 /* SBCollectionViewController.swift */; };
 		31A66D43207659B4007F7272 /* ExpandingTableViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A66D42207659B4007F7272 /* ExpandingTableViewViewController.swift */; };
 		31A66D4520765AB6007F7272 /* ExpandingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A66D4420765AB6007F7272 /* ExpandingTableViewCell.swift */; };
+		31A9271F20D417B600D3E40F /* Trigger.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31A9271E20D417B600D3E40F /* Trigger.storyboard */; };
+		31A9272120D4181400D3E40F /* TriggerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A9272020D4181400D3E40F /* TriggerViewController.swift */; };
+		31A9272420D41B8300D3E40F /* MBProgressHUD+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A9272320D41B8200D3E40F /* MBProgressHUD+Rx.swift */; };
+		31CC41D720D60968001AEBA7 /* TextField.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31CC41D620D60968001AEBA7 /* TextField.storyboard */; };
+		31CC41D920D60BD0001AEBA7 /* TextFieldSampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CC41D820D60BD0001AEBA7 /* TextFieldSampleViewController.swift */; };
 		31D7256D206CFC0F00F4DEA8 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D7256C206CFC0F00F4DEA8 /* CollectionViewController.swift */; };
 		31D72570206D061F00F4DEA8 /* RxCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D7256F206D061F00F4DEA8 /* RxCollectionViewController.swift */; };
+		31DADB7D20D61A3600A36E09 /* VMSample.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31DADB7C20D61A3600A36E09 /* VMSample.storyboard */; };
+		31DADB7F20D61A4500A36E09 /* VMSampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DADB7E20D61A4500A36E09 /* VMSampleViewController.swift */; };
+		31DADB8120D61AD200A36E09 /* EventProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DADB8020D61AD200A36E09 /* EventProvider.swift */; };
 		31F9AB11209082EC00878771 /* TextCloudViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F9AB10209082EC00878771 /* TextCloudViewController.swift */; };
 		86D9B05380AAACA352D21F14 /* Pods_RxSwift4Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8935E6517F7A57F8D499E238 /* Pods_RxSwift4Sample.framework */; };
 /* End PBXBuildFile section */
@@ -50,8 +58,16 @@
 		319B24D0206F96480061A041 /* SBCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBCollectionViewController.swift; sourceTree = "<group>"; };
 		31A66D42207659B4007F7272 /* ExpandingTableViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandingTableViewViewController.swift; sourceTree = "<group>"; };
 		31A66D4420765AB6007F7272 /* ExpandingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandingTableViewCell.swift; sourceTree = "<group>"; };
+		31A9271E20D417B600D3E40F /* Trigger.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Trigger.storyboard; sourceTree = "<group>"; };
+		31A9272020D4181400D3E40F /* TriggerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerViewController.swift; sourceTree = "<group>"; };
+		31A9272320D41B8200D3E40F /* MBProgressHUD+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MBProgressHUD+Rx.swift"; sourceTree = "<group>"; };
+		31CC41D620D60968001AEBA7 /* TextField.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TextField.storyboard; sourceTree = "<group>"; };
+		31CC41D820D60BD0001AEBA7 /* TextFieldSampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldSampleViewController.swift; sourceTree = "<group>"; };
 		31D7256C206CFC0F00F4DEA8 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		31D7256F206D061F00F4DEA8 /* RxCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCollectionViewController.swift; sourceTree = "<group>"; };
+		31DADB7C20D61A3600A36E09 /* VMSample.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = VMSample.storyboard; sourceTree = "<group>"; };
+		31DADB7E20D61A4500A36E09 /* VMSampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VMSampleViewController.swift; sourceTree = "<group>"; };
+		31DADB8020D61AD200A36E09 /* EventProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventProvider.swift; sourceTree = "<group>"; };
 		31F9AB10209082EC00878771 /* TextCloudViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCloudViewController.swift; sourceTree = "<group>"; };
 		44C3D62D463902AF07E3654A /* Pods-RxSwift4Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift4Sample.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwift4Sample/Pods-RxSwift4Sample.release.xcconfig"; sourceTree = "<group>"; };
 		8935E6517F7A57F8D499E238 /* Pods_RxSwift4Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwift4Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,6 +115,7 @@
 		314F1D4C20427F3000A7BAC7 /* RxSwift4Sample */ = {
 			isa = PBXGroup;
 			children = (
+				31A9272220D41B7B00D3E40F /* Rx */,
 				314F1D4D20427F3000A7BAC7 /* AppDelegate.swift */,
 				314F1D4F20427F3000A7BAC7 /* ViewController.swift */,
 				31D7256C206CFC0F00F4DEA8 /* CollectionViewController.swift */,
@@ -117,11 +134,26 @@
 				312F68C22091E3E400B61AC2 /* ButtonCloudCell.swift */,
 				312F68C42091E44700B61AC2 /* TagCloudButton.swift */,
 				314F1D5120427F3000A7BAC7 /* Main.storyboard */,
+				31A9271E20D417B600D3E40F /* Trigger.storyboard */,
+				31A9272020D4181400D3E40F /* TriggerViewController.swift */,
+				31CC41D620D60968001AEBA7 /* TextField.storyboard */,
+				31CC41D820D60BD0001AEBA7 /* TextFieldSampleViewController.swift */,
+				31DADB7C20D61A3600A36E09 /* VMSample.storyboard */,
+				31DADB7E20D61A4500A36E09 /* VMSampleViewController.swift */,
+				31DADB8020D61AD200A36E09 /* EventProvider.swift */,
 				314F1D5420427F3000A7BAC7 /* Assets.xcassets */,
 				314F1D5620427F3000A7BAC7 /* LaunchScreen.storyboard */,
 				314F1D5920427F3000A7BAC7 /* Info.plist */,
 			);
 			path = RxSwift4Sample;
+			sourceTree = "<group>";
+		};
+		31A9272220D41B7B00D3E40F /* Rx */ = {
+			isa = PBXGroup;
+			children = (
+				31A9272320D41B8200D3E40F /* MBProgressHUD+Rx.swift */,
+			);
+			path = Rx;
 			sourceTree = "<group>";
 		};
 		FE5BAAAA77CFD3F4B306B4BE /* Pods */ = {
@@ -145,7 +177,6 @@
 				314F1D4720427F3000A7BAC7 /* Frameworks */,
 				314F1D4820427F3000A7BAC7 /* Resources */,
 				E161EEC29FBA2F8A33AF20DE /* [CP] Embed Pods Frameworks */,
-				FB50836C19D8057D8224C462 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,7 +226,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31A9271F20D417B600D3E40F /* Trigger.storyboard in Resources */,
 				312F68C12091E38500B61AC2 /* CellButtonCloud.storyboard in Resources */,
+				31CC41D720D60968001AEBA7 /* TextField.storyboard in Resources */,
+				31DADB7D20D61A3600A36E09 /* VMSample.storyboard in Resources */,
 				314F1D5820427F3000A7BAC7 /* LaunchScreen.storyboard in Resources */,
 				314F1D5520427F3000A7BAC7 /* Assets.xcassets in Resources */,
 				314F1D5320427F3000A7BAC7 /* Main.storyboard in Resources */,
@@ -232,6 +266,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-RxSwift4Sample/Pods-RxSwift4Sample-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/APIKit/APIKit.framework",
 				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/NSObject+Rx/NSObject_Rx.framework",
 				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
@@ -242,6 +277,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/APIKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NSObject_Rx.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
@@ -253,21 +289,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxSwift4Sample/Pods-RxSwift4Sample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FB50836C19D8057D8224C462 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxSwift4Sample/Pods-RxSwift4Sample-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -275,7 +296,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31DADB8120D61AD200A36E09 /* EventProvider.swift in Sources */,
 				31D72570206D061F00F4DEA8 /* RxCollectionViewController.swift in Sources */,
+				31A9272120D4181400D3E40F /* TriggerViewController.swift in Sources */,
 				31847F91209085D20008373C /* TagLabel.swift in Sources */,
 				319B24D1206F96480061A041 /* SBCollectionViewController.swift in Sources */,
 				31D7256D206CFC0F00F4DEA8 /* CollectionViewController.swift in Sources */,
@@ -285,12 +308,15 @@
 				3155057B2076842100931253 /* AnimatingTableViewCell.swift in Sources */,
 				315505792076840B00931253 /* AnimatingTableViewController.swift in Sources */,
 				31A66D4520765AB6007F7272 /* ExpandingTableViewCell.swift in Sources */,
+				31CC41D920D60BD0001AEBA7 /* TextFieldSampleViewController.swift in Sources */,
 				31F9AB11209082EC00878771 /* TextCloudViewController.swift in Sources */,
 				314F1D5020427F3000A7BAC7 /* ViewController.swift in Sources */,
 				314F1D4E20427F3000A7BAC7 /* AppDelegate.swift in Sources */,
 				317D6BF1207E003B00184973 /* APIKitCodableSampleViewController.swift in Sources */,
 				312F68C52091E44700B61AC2 /* TagCloudButton.swift in Sources */,
 				317D6BF3207E0B2900184973 /* APIKitCodableRxSwiftSampleViewController.swift in Sources */,
+				31A9272420D41B8300D3E40F /* MBProgressHUD+Rx.swift in Sources */,
+				31DADB7F20D61A4500A36E09 /* VMSampleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
